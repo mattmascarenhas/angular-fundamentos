@@ -1,0 +1,19 @@
+<div class="aula">
+  <h2>Two Way Data Biding</h2>
+  <h3>Instrução</h3>
+  <span>1- Importar o FormsModule no app.module </span>
+  <br />
+  <span>2- adicionar o FormModule na lista de import do app.module</span>
+  <br />
+  <h2>Usando o two way data biding</h2>
+  <form action="">
+    <input
+      type="text"
+      [(ngModel)]="name"
+      name="name"
+      placeholder="Digite seu nome"
+    />
+    <input type="submit" value="Enviar" />
+    <p *ngIf="name !== ''">O nome é: {{ name }}</p>
+  </form>
+</div>

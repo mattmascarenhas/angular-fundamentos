@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #161616;
+  color: aliceblue;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 500px;
+}
+
+button {
+  background-color: yellow;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.aula {
+  border-bottom: 1px solid green;
+  padding: 2em;
+  margin-bottom: 1em;
+  margin-left: 80px;
+  margin-right: 80px;
+}
